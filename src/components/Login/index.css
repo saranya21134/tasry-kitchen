@@ -1,0 +1,141 @@
+.login-container {
+  background-image: url('https://res.cloudinary.com/dstrrgmd3/image/upload/v1719221728/Rectangle_1457login_image_slfwvw.png');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: hidden;
+}
+
+.login-image-container {
+  display: none;
+}
+.login-website-logo-desktop-image {
+  display: none;
+}
+.tasty-kitchen-heading {
+  display: none;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+}
+.login-form-container {
+  display: flex;
+  width: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin-top: 230px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.username-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.password-input-field {
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid #d7dfe9;
+  background-color: #e2e8f0;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.login-button {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  background-color: #f7931e;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.error-message {
+  align-self: start;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: 16px;
+  color: #ff0b37;
+}
+@media screen and (min-width: 768px) {
+  .login-container {
+    background-image: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+  .login-image-container {
+    display: block;
+    width: 50vw;
+    height: 100vh;
+  }
+  .login-website-logo-mobile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .login-website-logo-desktop-image {
+    display: block;
+    width: 85px;
+  }
+  .form-container {
+    align-items: center;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .login-form-container {
+    margin-top: 0;
+  }
+  .tasty-kitchen-heading {
+    display: block;
+  }
+}

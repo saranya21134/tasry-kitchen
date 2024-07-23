@@ -1,0 +1,93 @@
+.similar-product-item {
+  text-decoration: none;
+  margin-bottom: 48px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.similar-product-image-container {
+  width: 255px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.similar-cost-for-two-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+  margin-top: -25px;
+}
+
+.similar-product-image {
+  width: 100%;
+  height: 100%;
+}
+.similar-food-details-container {
+  width: 200px;
+}
+
+.similar-food-name {
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #334155;
+}
+.similar-food-cost {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #334155;
+}
+.similar-food-star {
+  width: 12px;
+  height: 12px;
+  color: #ffcc00;
+}
+.similar-rating {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: #0a1f44;
+}
+.similar-food-item-button {
+  width: Hug (42.17px) px;
+  height: Hug (23.59px) px;
+  padding: 5.79px 11.59px 5.79px 11.59px;
+  gap: 5.79px;
+  border-radius: 5.79px;
+  border: 1px solid #ffa412;
+
+  background-color: transparent;
+}
+@media screen and (max-width: 768px) {
+  .similar-product-item {
+    width: 300px;
+    gap: 20px;
+  }
+
+  .similar-product-image-container {
+    width: 160px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  .similar-food-details-container {
+    width: 150px;
+  }
+  .similar-food-name {
+    font-size: 16px;
+  }
+  .similar-food-cost {
+    font-size: 14px;
+  }
+}
